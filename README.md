@@ -1,2 +1,2 @@
 # F28WPWebProgramming
-Repository for F28WP Web pROGRAMMING
+Repository for F28WP Web Programming
