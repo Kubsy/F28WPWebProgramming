@@ -1,10 +1,12 @@
-document.body.style.height = '200pt';
+var square = document.getElementById('square')
 
-var script = document.createElement('script');
-script.type = 'text/javascript';
-script.src = 'https://cdnjs.cloudflare.com/ajax/libs/cookie-banner/1.2.2/cookiebanner.min.js';
-script.id = 'cookiebanner';
-script['data-height']   = '20px'; // non-standard attribute (may need to use 'setAttribute(..)'
-script['data-position'] = 'top';
-script['data-message']  = 'We use cookies!';
-document.head.appendChild(script); 
+window.onload = function()
+{
+    prepareGame()
+}
+
+function prepareGame()
+{
+    square.style.top = 600 + 'px'
+    square.style.bottom = 234 + 'px'
+}
