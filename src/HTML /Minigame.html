@@ -17,10 +17,22 @@
         <li><a href="chatroom.html">Chatroom</a></li>
     </ul>
 
+	<script>
+
+		function addTotal()
+		{
+			document.getElementById("score").innerHTML = "clicked";
+		}
+
+	</script>
+
+	<p> total score: </p>
+	<p id="score"> 0 </p>
+
 	<p>
         Click on as many blocks as possible!
 	</p>
 
-	<div id="square"></div>
+	<div id="square" onclick="addTotal()"></div>
 </body>
 </html>
